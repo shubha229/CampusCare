@@ -16,7 +16,6 @@ CampusCare is a full-stack college complaint management platform that allows stu
 - Authentication: JWT + bcryptjs
 - File Uploads: Multer
 - Validation: express-validator
-- Security: Helmet, CORS, rate limiting
 
 ### Core Features
 
