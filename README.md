@@ -17,7 +17,6 @@ CampusCare is a full-stack college complaint management platform that allows stu
 - File Uploads: Multer
 - Validation: express-validator
 - Security: Helmet, CORS, rate limiting
-- Optional AI: OpenRouter / Gemini
 
 ### Core Features
 
@@ -31,7 +30,6 @@ CampusCare is a full-stack college complaint management platform that allows stu
 - Notification center
 - Admin dashboard with analytics
 - Feedback after resolution
-- Optional AI categorization and summaries
 
 ---
 
