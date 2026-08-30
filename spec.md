@@ -18,12 +18,11 @@ The application must provide complaint history, search and filtering, basic stat
 
 ### Tech Stack
 
-* **Frontend:** React.js / Vite, React Router, Tailwind CSS, Axios, Lucide React
+* **Frontend:** React.js / Vite, React Router
 * **Backend:** Node.js, Express.js, MongoDB, Mongoose
 * **Authentication:** JSON Web Tokens (JWT), bcryptjs
 * **File Uploads:** Multer with configurable local/cloud storage
 * **Validation:** express-validator
-* **Security:** helmet, CORS, rate limiting
 * **Deployment:** Frontend and backend must be deployable independently
 * **Database:** MongoDB with Mongoose schemas
 
