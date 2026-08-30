@@ -10,14 +10,13 @@ CampusCare is a full-stack college complaint management platform that allows stu
 
 ### Tech Stack
 
-- Frontend: React + Vite + React Router + Tailwind CSS + Axios + Lucide React
+- Frontend: React + Vite + React Router
 - Backend: Node.js + Express.js
 - Database: MongoDB + Mongoose
 - Authentication: JWT + bcryptjs
 - File Uploads: Multer
 - Validation: express-validator
 - Security: Helmet, CORS, rate limiting
-- State Management: Context API or Zustand
 - Optional AI: OpenRouter / Gemini
 
 ### Core Features
