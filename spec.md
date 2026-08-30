@@ -24,10 +24,8 @@ The application must provide complaint history, search and filtering, basic stat
 * **File Uploads:** Multer with configurable local/cloud storage
 * **Validation:** express-validator
 * **Security:** helmet, CORS, rate limiting
-* **State Management:** Context API or Zustand
 * **Deployment:** Frontend and backend must be deployable independently
 * **Database:** MongoDB with Mongoose schemas
-* **Optional AI:** OpenRouter API / Google Gemini for complaint categorization and summaries
 
 ---
 
@@ -376,51 +374,6 @@ The backend must:
 * Return attachment information through the API
 
 The application must never trust the original uploaded filename.
-
----
-
-## 8. Optional AI Features
-
-AI functionality is optional but can significantly improve the system.
-
-### AI Complaint Categorization
-
-When a student submits:
-
-> "The Wi-Fi in Block B has been disconnected for two days."
-
-The system may automatically suggest:
-
-```text
-Category: IT / Wi-Fi
-Priority: High
-Department: IT Department
-```
-
-The student must be able to edit the AI-generated classification before submission.
-
-### AI Complaint Summary
-
-Administrators may request an AI-generated summary:
-
-```text
-Problem:
-Wi-Fi connectivity is unavailable in Block B.
-
-Impact:
-Students are unable to access online academic resources.
-
-Recommended Department:
-IT Department
-```
-
-### AI Safety
-
-AI-generated information must be treated as a recommendation.
-
-The system must not automatically make irreversible administrative decisions based solely on AI output.
-
-If AI configuration is unavailable, the core complaint system must continue working normally.
 
 ---
 
@@ -931,13 +884,8 @@ server/
 * Add student resolution feedback
 * Add complaint rating
 
-### Phase 6: AI and Deployment
+### Phase 6: Deployment
 
-* Implement optional AI categorization
-* Implement AI complaint summaries
-* Add graceful AI fallback
-* Optimize database queries
-* Add security middleware
 * Add production environment configuration
 * Deploy frontend
 * Deploy backend
